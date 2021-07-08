@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\components\Animal;
+use app\components\Human;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -65,64 +67,44 @@ class SiteController extends Controller
     }
 
     /**
-     * Login action.
+     * Non magic action.
      *
      * @return Response|string
+     * @throws \Exception
      */
-    public function actionLogin()
+    public function actionNonMagic()
     {
-        if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
-        }
+        $human = new Human();
+        $human->setArms(2);
 
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        }
-
-        $model->password = '';
-        return $this->render('login', [
-            'model' => $model,
-        ]);
+        return $this->render('non-magic', ['human' => $human]);
     }
 
     /**
-     * Logout action.
-     *
-     * @return Response
-     */
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }
-
-    /**
-     * Displays contact page.
-     *
-     * @return Response|string
-     */
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Displays about page.
+     * Magic action.
      *
      * @return string
      */
-    public function actionAbout()
+    public function actionMagic()
     {
-        return $this->render('about');
+        $human = new Human();
+        $human->legs = 4;
+
+        return $this->render('magic', ['human' => $human]);
     }
+
+    /**
+     * in Yii2.
+     *
+     * @return Response|string
+     */
+    public function actionInYii2()
+    {
+        $animal = new Animal();
+        $animal->horns = 1;
+        $animal->legs = 4;
+
+        return $this->render('in-yii2', ['animal' => $animal]);
+    }
+
 }
