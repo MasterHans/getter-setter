@@ -31,3 +31,11 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+#MasterHans added
+/runtime
+/web
+/widget
+/config
+/assets
+/.idea

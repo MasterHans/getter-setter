@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5176c495-ecde-495d-84d9-f27004b17399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Animal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/in-yii2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/magic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/non-magic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/getter-setter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/getter-setter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Human.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Human.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625731209681</updated>
-      <workItem from="1625731211112" duration="14034000" />
+      <workItem from="1625731211112" duration="14548000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1625735398215</created>
@@ -71,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625735398215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Human and Animal components">
+      <created>1625749210113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625749210113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,17 +77,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Added Human and Animal components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Human and Animal components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="218" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625741264627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="218" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625741264627" />
-    <state x="508" y="45" key="CommitChangelistDialog2" timestamp="1625735397424">
+    <state x="508" y="45" key="CommitChangelistDialog2" timestamp="1625749209350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625735397424" />
+    <state x="508" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625749209350" />
     <state x="716" y="294" key="NewPhpClassDialog" timestamp="1625744205402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,9 +101,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625736216398" />
-    <state x="452" y="173" key="Vcs.Push.Dialog.v2" timestamp="1625735399648">
+    <state x="452" y="173" key="Vcs.Push.Dialog.v2" timestamp="1625749211369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="173" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625735399648" />
+    <state x="452" y="173" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625749211369" />
   </component>
 </project>
